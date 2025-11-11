@@ -5,7 +5,7 @@ This utilizes string manipulation and the random module. """
 
 import random , string
 
-symbols = ['@','!','&','%','#']
+symbols = ['@','!','&','%','#','*']
 alphabet =  string.ascii_lowercase + string.ascii_uppercase + string.digits + random.choice(symbols)
 
 passwordLenght = 12
